@@ -3,43 +3,242 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Eliminar cuenta y datos | Control Escolar C31</title>
+  <meta name="robots" content="index,follow" />
+  <title>Política de Privacidad | Control Escolar C31</title>
+  <meta name="description" content="Política de Privacidad de la app Control Escolar C31 para uso escolar en CETIS 31." />
+
   <style>
+    :root { color-scheme: light dark; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; margin: 0; }
-    main { max-width: 860px; margin: 0 auto; padding: 28px 18px 60px; }
-    h1 { margin: 0 0 10px; }
-    .box { border: 1px solid rgba(127,127,127,.35); border-radius: 14px; padding: 14px; margin-top: 12px; }
+    header { padding: 28px 18px; border-bottom: 1px solid rgba(127,127,127,.35); }
+    main { max-width: 980px; margin: 0 auto; padding: 22px 18px 60px; }
+    h1 { margin: 0 0 8px; font-size: 1.9rem; }
+    .sub { margin: 0; opacity: .8; }
+    nav { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; }
+    nav a { text-decoration: none; border: 1px solid rgba(127,127,127,.35); padding: 7px 10px; border-radius: 999px; }
+    section { margin-top: 26px; padding-top: 8px; }
+    h2 { margin: 0 0 8px; font-size: 1.25rem; }
+    ul { margin: 8px 0 0 18px; }
     code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .box { border: 1px solid rgba(127,127,127,.35); border-radius: 14px; padding: 14px; margin-top: 10px; }
+    footer { border-top: 1px solid rgba(127,127,127,.35); padding: 18px; opacity: .85; }
+    .muted { opacity: .8; }
+    .pill { display: inline-block; padding: 2px 8px; border: 1px solid rgba(127,127,127,.35); border-radius: 999px; font-size: .85rem; }
   </style>
 </head>
+
 <body>
+  <header>
+    <h1>Política de Privacidad</h1>
+    <p class="sub">
+      <strong>App:</strong> Control Escolar C31 <span class="pill">CETIS 31</span><br/>
+      <strong>Última actualización:</strong> 28 de enero de 2026
+    </p>
+
+    <nav aria-label="Secciones">
+      <a href="#responsable">Responsable</a>
+      <a href="#datos">Datos que se recopilan</a>
+      <a href="#finalidades">Finalidades</a>
+      <a href="#firebase">Firebase</a>
+      <a href="#compartir">Compartición</a>
+      <a href="#conservacion">Conservación</a>
+      <a href="#eliminacion">Eliminación</a>
+      <a href="#seguridad">Seguridad</a>
+      <a href="#derechos">Derechos</a>
+      <a href="#menores">Menores</a>
+      <a href="#cambios">Cambios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
   <main>
-    <h1>Eliminación de cuenta y datos — Control Escolar C31</h1>
-    <p>
-      Si deseas solicitar la eliminación de tu cuenta y/o datos asociados, envía un correo a:
-      <a href="mailto:david.rocha180900@gmail.com">david.rocha180900@gmail.com</a>
-    </p>
-
-    <div class="box">
-      <p style="margin:0;"><strong>Asunto:</strong> Solicitud de eliminación de cuenta y datos — Control Escolar C31</p>
-      <p style="margin:10px 0 0;"><strong>Incluye en tu mensaje:</strong></p>
-      <ul style="margin:8px 0 0 18px;">
-        <li>Tu <strong>correo institucional</strong> registrado.</li>
-        <li>Nombre completo y rol (si aplica).</li>
-        <li>Indica si deseas eliminar: <strong>cuenta completa</strong> y/o <strong>datos específicos</strong> (por ejemplo: archivos subidos).</li>
-      </ul>
-      <p style="margin:10px 0 0;">
-        <strong>Nota:</strong> Podremos conservar información mínima cuando sea necesaria por obligaciones legales, auditoría o seguridad.
+    <section id="intro">
+      <p>
+        La presente Política de Privacidad describe cómo <strong>Control Escolar C31</strong> (la “App”) recopila, usa,
+        almacena y protege la información. La App está diseñada para apoyar procesos escolares (por ejemplo, control de
+        asistencias y generación de reportes) y está destinada a uso institucional relacionado con <strong>CETIS 31</strong>.
       </p>
-    </div>
+      <p class="muted">
+        Si no estás de acuerdo con esta Política, por favor no utilices la App.
+      </p>
+    </section>
 
-    <p style="margin-top:16px;">
-      Consulta también la <a href="politica-privacidad.html">Política de Privacidad</a>.
-    </p>
+    <section id="responsable">
+      <h2>1) Responsable y contacto</h2>
+      <div class="box">
+        <p style="margin:0;">
+          <strong>Responsable:</strong> David Rocha Martínez<br/>
+          <strong>Correo de soporte/privacidad:</strong> <a href="mailto:david.rocha180900@gmail.com">david.rocha180900@gmail.com</a><br/>
+          <strong>Ubicación:</strong> México (Ciudad/Estado) <span class="muted">CDMX</span><br/>
+          <strong>Sitio / URL de esta política:</strong> <span class="muted">https://davidrocha1809.github.io/PDP-cetis31/</span>
+        </p>
+      </div>
+    </section>
 
-    <p style="opacity:.8;margin-top:18px;">
-      Última actualización: 28 de enero de 2026
-    </p>
+    <section id="datos">
+      <h2>2) Datos que se recopilan</h2>
+      <p>Dependiendo del uso de la App, se puede recopilar lo siguiente:</p>
+
+      <h3>2.1 Datos proporcionados por las personas usuarias</h3>
+      <ul>
+        <li><strong>Correo institucional</strong> (requisito): el usuario proporciona su correo institucional para que se le dé de alta.</li>
+        <li><strong>Datos de cuenta</strong> (según configuración): nombre, rol/perfil (por ejemplo: docente/administrativo) y datos asociados a su uso.</li>
+        <li><strong>Soporte</strong>: información que envíes al contactar soporte (mensaje, descripción del problema, etc.).</li>
+      </ul>
+
+      <h3>2.2 Datos escolares gestionados dentro de la App</h3>
+      <ul>
+        <li><strong>Información académica/administrativa</strong> (según funciones): grupos, listas, registros de asistencia, observaciones y/o reportes.</li>
+        <li><strong>Datos de estudiantes</strong> (si se capturan/administran): nombre, matrícula/ID interno, grupo y asistencias (u otros campos que la institución utilice en la operación).</li>
+      </ul>
+
+      <h3>2.3 Archivos y documentos</h3>
+      <ul>
+        <li>Archivos que se suban a la App (por ejemplo: evidencias o documentos) cuando la función esté habilitada.</li>
+      </ul>
+
+      <h3>2.4 Datos técnicos mínimos</h3>
+      <ul>
+        <li>Información técnica básica para operar el servicio (por ejemplo: fechas/horas de acceso, identificadores técnicos necesarios para autenticación).</li>
+      </ul>
+
+      <p class="muted">
+        La App no solicita ubicación precisa, micrófono u otros permisos sensibles, salvo que en el futuro se habiliten funciones que lo requieran
+        y se solicite permiso de forma explícita.
+      </p>
+    </section>
+
+    <section id="finalidades">
+      <h2>3) Finalidades del uso de la información</h2>
+      <ul>
+        <li>Dar de alta usuarios con <strong>correo institucional</strong> y administrar accesos.</li>
+        <li>Operar funciones principales: registro/consulta de asistencias, gestión de grupos/listas y generación de reportes.</li>
+        <li>Mantener seguridad del sistema (prevención de uso indebido y control de acceso por roles).</li>
+        <li>Atender solicitudes de soporte y comunicación operativa relacionada con el servicio.</li>
+        <li>Mejorar estabilidad y rendimiento de la App mediante revisión de incidencias (cuando aplique).</li>
+      </ul>
+    </section>
+
+    <section id="firebase">
+      <h2>4) Uso de Firebase (Auth / Firestore / Storage)</h2>
+      <p>
+        La App utiliza servicios de <strong>Firebase</strong> para operar funcionalidades esenciales:
+      </p>
+      <ul>
+        <li><strong>Firebase Authentication (Auth):</strong> para autenticación y administración de acceso.</li>
+        <li><strong>Cloud Firestore:</strong> para almacenar información necesaria de operación (por ejemplo: usuarios, grupos, asistencias, reportes).</li>
+        <li><strong>Cloud Storage for Firebase:</strong> para almacenar archivos y documentos subidos por usuarios (si aplica).</li>
+      </ul>
+
+      <div class="box">
+        <p style="margin:0;">
+          <strong>Importante:</strong> Firebase es provisto por Google y puede procesar datos en servidores ubicados fuera de México, dependiendo de la
+          configuración del proyecto. Control Escolar C31 utiliza estos servicios para proveer el funcionamiento de la App.
+        </p>
+        <p class="muted" style="margin:10px 0 0;">
+          Referencias de terceros (opcional para tu web):<br/>
+          Google Privacy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a><br/>
+          Firebase Privacy & Security: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="compartir">
+      <h2>5) Compartición de información</h2>
+      <p><strong>No vendemos</strong> tu información personal.</p>
+      <p>Podemos compartir información únicamente en estos supuestos:</p>
+      <ul>
+        <li><strong>Proveedores tecnológicos</strong> necesarios para operar la App (por ejemplo, Firebase), actuando como encargados del tratamiento.</li>
+        <li><strong>Cumplimiento legal</strong> cuando una autoridad competente lo requiera conforme a ley.</li>
+        <li><strong>Seguridad</strong> para investigar o prevenir fraude/abuso o incidentes técnicos.</li>
+      </ul>
+    </section>
+
+    <section id="conservacion">
+      <h2>6) Conservación de datos</h2>
+      <ul>
+        <li>Conservamos la información mientras sea necesaria para prestar el servicio y/o mientras la cuenta esté activa.</li>
+        <li>Cuando solicites eliminación, eliminaremos o anonimizaremos los datos, salvo que exista obligación legal o necesidad de conservación por seguridad o auditoría.</li>
+      </ul>
+    </section>
+
+    <section id="eliminacion">
+      <h2>7) Eliminación de cuenta y datos</h2>
+      <p>
+        Puedes solicitar la eliminación de tu cuenta y/o datos asociados enviando un correo a:
+        <a href="mailto:david.rocha180900@gmail.com">david.rocha180900@gmail.com</a>
+      </p>
+      <div class="box">
+        <p style="margin:0;"><strong>Asunto:</strong> Solicitud de eliminación de cuenta y datos — Control Escolar C31</p>
+        <p style="margin:8px 0 0;"><strong>Incluye:</strong></p>
+        <ul style="margin-top:6px;">
+          <li>Tu <strong>correo institucional</strong> registrado.</li>
+          <li>Tu nombre completo y rol (si aplica).</li>
+          <li>Qué deseas eliminar: <em>cuenta completa</em> y/o <em>datos específicos</em> (por ejemplo: archivos subidos).</li>
+        </ul>
+        <p class="muted" style="margin:10px 0 0;">
+          Nota: es posible que se retenga información mínima si es necesaria por obligaciones legales, auditoría o seguridad.
+        </p>
+      </div>
+
+      <p class="muted">
+        Recomendación para Google Play: publica además una página directa tipo <code>/eliminar-cuenta</code> con estas instrucciones.
+      </p>
+    </section>
+
+    <section id="seguridad">
+      <h2>8) Seguridad</h2>
+      <p>
+        Implementamos medidas razonables para proteger la información, tales como controles de acceso, reglas de seguridad
+        en bases de datos y buenas prácticas de desarrollo. Aun así, ningún sistema es completamente infalible.
+      </p>
+    </section>
+
+    <section id="derechos">
+      <h2>9) Derechos y contacto (México)</h2>
+      <p>
+        Puedes solicitar acceso, rectificación, cancelación u oposición (ARCO), o bien revocar tu consentimiento cuando sea procedente,
+        escribiendo a <a href="mailto:david.rocha180900@gmail.com">david.rocha180900@gmail.com</a> con el asunto:
+        <strong>Derechos ARCO — Control Escolar C31</strong>.
+      </p>
+    </section>
+
+    <section id="menores">
+      <h2>10) Privacidad de menores</h2>
+      <p>
+        La App no está dirigida a menores como usuarios finales generales. Sin embargo, en el contexto escolar puede gestionar
+        <strong>datos de estudiantes</strong> cuando sea utilizada por personal autorizado (docente/administrativo) para fines de operación escolar.
+      </p>
+    </section>
+
+    <section id="cambios">
+      <h2>11) Cambios a esta Política</h2>
+      <p>
+        Podremos actualizar esta Política para reflejar cambios técnicos, legales o de funcionamiento. La versión vigente se publicará
+        en el sitio donde esté alojada esta política, actualizando la fecha de “Última actualización”.
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>12) Contacto</h2>
+      <div class="box">
+        <p style="margin:0;">
+          Para dudas, solicitudes de soporte o privacidad:<br/>
+          <strong>Email:</strong> <a href="mailto:david.rocha180900@gmail.com">david.rocha180900@gmail.com</a><br/>
+          <strong>App:</strong> Control Escolar C31
+        </p>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <small>
+      &copy; <span id="year"></span> Control Escolar C31. Esta Política de Privacidad aplica al uso de la App y a la publicación en el sitio web donde se aloje.
+    </small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
